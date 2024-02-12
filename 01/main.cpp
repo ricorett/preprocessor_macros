@@ -14,6 +14,8 @@ int main(){
                 std::cout << "Введите второе число: ";
                 std::cin >> num2;
                 std::cout << "Результат сложения: "  << add(num1, num2) << std::endl;    
+#else
+#error "Неизвестный режим. Завершение работы"
 #endif
 
     return 0;

@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 
 #define MODE 1
