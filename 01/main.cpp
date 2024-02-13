@@ -2,11 +2,11 @@
 
 int main(){
 
-    int num1 = 0, num2 = 0;
-
 #ifndef MODE
 #error "MODE не определен."
 #endif
+    int num1 = 0, num2 = 0;
+
 #if MODE == 0
                 std::cout << "Работаю в режиме тренировки. " << std::endl;
 
